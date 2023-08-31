@@ -1,0 +1,55 @@
+body{
+	background: #121417;
+}
+
+h3{
+	color: white;
+}
+
+p{
+	font-size: 15px;
+}
+
+#submit{
+	width: 100%;
+	border: 1px solid #fb7413;
+	border-radius: 20px;
+	background: #fb7413;
+	color: white;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+
+#submit:hover{
+	background: white;
+	color: #fb7413;
+	border: 1px solid white;
+}
+
+.container{
+	margin-top: 10%;
+	margin-left: 35%;
+	text-align: left;
+	border: 1px solid #252d37;
+	border-radius: 20px;
+	width: 30%;
+	background: #252d37;
+	color: #959eac;
+}
+
+.circulo, #estrela{
+	border: 1px solid #2d3743;
+	border-radius: 50%;
+	background: #2d3743;
+	padding: 4% 5.5%;
+	color: white;
+}
+
+.circulo:hover{
+	border: 1px solid #fb7413;
+	background: #fb7413;
+	color: white;
+	cursor: pointer;
+}
+
