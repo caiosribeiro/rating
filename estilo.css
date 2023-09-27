@@ -20,6 +20,11 @@ p{
 	font-weight: 700;
 }
 
+#grupo-circulo{
+	position: relative;
+	left: 2%;
+}
+
 
 #submit:hover{
 	background: white;
@@ -29,7 +34,6 @@ p{
 
 .container{
 	margin-top: 10%;
-	margin-left: 35%;
 	text-align: left;
 	border: 1px solid #252d37;
 	border-radius: 20px;
@@ -38,11 +42,15 @@ p{
 	color: #959eac;
 }
 
+.circulo{
+	width: 14%;
+}
+
 .circulo, #estrela{
 	border: 1px solid #2d3743;
 	border-radius: 50%;
 	background: #2d3743;
-	padding: 4% 5.5%;
+	padding: 4% 5%;
 	color: white;
 }
 
@@ -53,3 +61,121 @@ p{
 	cursor: pointer;
 }
 
+@media only screen and (max-width: 1294px){
+	.container{
+		width: 32%;
+	}
+}
+
+@media only screen and (max-width: 1204px){
+	.container{
+		width: 34%;
+	}
+}
+
+@media only screen and (max-width: 1134px){
+	.container{
+		width: 36%;
+	}
+}
+
+@media only screen and (max-width: 1072px){
+	.container{
+		width: 38%;
+	}
+}
+
+@media only screen and (max-width: 1014px){
+	.container{
+		width: 40%;
+	}
+}
+
+@media only screen and (max-width: 962px){
+	.container{
+		width: 42%;
+	}
+}
+
+@media only screen and (max-width: 918px){
+	.container{
+		width: 44%;
+		position: relative;
+	}
+}
+
+@media only screen and (max-width: 876px){
+	.container{
+		width: 46%;
+	}
+}
+
+@media only screen and (max-width: 838px){
+	.container{
+		width: 48%;
+	}
+}
+
+@media only screen and (max-width: 804px){
+	.container{
+		width: 50%;
+	}
+}
+
+@media only screen and (max-width: 769px){
+	.container{
+		width: 52%;
+	}
+}
+
+@media only screen and (max-width: 741px){
+	.container{
+		width: 60%;
+	}
+}
+
+@media only screen and (max-width: 644px){
+	.container{
+		width: 70%;
+	}
+}
+
+@media only screen and (max-width: 549px){
+	.container{
+		width: 80%;
+	}
+}
+
+@media only screen and (max-width: 480px){
+	.container{
+		width: 85%;
+	}
+}
+
+@media only screen and (max-width: 442px){
+	#grupo-circulo{
+		position: relative;
+		left: -15%;
+		padding-left: 10%;
+		width: 130%;
+	}
+}
+
+@media only screen and (max-width: 384px){
+	#grupo-circulo{
+		left: -17%;
+	}
+
+	.circulo{
+		width: 12%;
+		padding-left: 4%;
+		position: relative;
+		left: 4.5%;
+	}
+}
+
+@media only screen and (max-width: 300px){
+	#grupo-circulo{
+		padding-left: 0;
+	}
+}	
